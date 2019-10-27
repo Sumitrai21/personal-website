@@ -1,0 +1,234 @@
+/***********************Element Tags*********************/
+body{
+  margin:0;
+
+}
+h1
+{
+  margin:0;
+
+}
+h2
+{
+  margin:0;
+  font-family: 'Amatic SC', cursive;
+  font-size: 55px;
+  color:#f0ece2;
+
+}
+h5
+{
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  color:silver;
+  margin:0;
+  margin-left:500px;
+}
+p{
+  margin:0;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 24px;
+  color:white;
+  margin-left: 320px;
+  margin-top: 60px;
+}
+hr{
+  border-style:none;
+  border-top-style:dotted;
+  border-color: #525252;
+  border-width: 8px;
+  width: 6%;
+
+}
+table{
+  color:white;
+  margin: 0;
+  padding: 25px;
+  font-size: 25px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+a{
+  color:white;
+  text-decoration:none;
+}
+
+a:hover{
+  font-size: 30px;
+}
+
+span{
+  margin:0;
+  color:silver;
+  font-size: 10px;
+  font-family: arial, sans-serif;
+
+}
+/***********************class Tags**********************/
+
+.footer-container
+{
+  background-color:black;
+  height:200px;
+  width:100%;
+
+}
+
+.fun-container{
+  height: 400px;
+  width: 900px;
+  background-color:noshade;
+  position:relative;
+    left: 300px;
+    top: 40px
+
+
+}
+.fun-image{
+  background-color:nocolor;
+  background-size: 270px 270px;
+  height:250px;
+  width:250px;
+  margin-left: 10px;
+  margin-top: 25px;
+  background-image: url(../images/jigsaw.png);
+  background-repeat: no-repeat;
+
+  float: left;
+
+
+}
+.hobby-container
+{
+  background-color: nocolor;;
+    height: 350px;
+    width: 900px;
+    position:relative;
+      left: 300px;
+      top: 40px
+
+}
+.main-image
+{
+  height:700px;
+  width:100%;
+  position: absolute;
+
+
+}
+.middle-container
+{
+  background-color:#525252;
+  background-image: url(../images/download.jpg);
+  background-size: 100% 100%;;
+  background-repeat: no-repeat;
+  height:1400px;
+  width:100%;
+  position: static;
+    top: 0px;
+}
+
+.passport-image
+{
+  background-color:nocolor;
+  background-size: 270px 270px;
+  height:250px;
+  width:250px;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-image: url(../images/sumit.jpg);
+  background-repeat: no-repeat;
+  border-radius: 150%;
+  transform: rotate(270deg);
+  float: left;
+
+}
+
+
+.skills-container
+{
+background-color: nocolor;
+  height: 300px;
+  width: 900px;
+  position:relative;
+    left: 300px;
+    top: 40px;
+padding: 20px;
+
+
+}
+.skill-photo{
+  background-color:nocolor;
+  background-size: 270px 270px;
+  height:250px;
+  width:250px;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-image: url(../images/brush-settings.png);
+  background-repeat: no-repeat;
+  float: right;
+}
+.top-container
+{
+background-color: grey;
+
+  width:100%;
+  height:683px;
+  margin : 0;
+}
+
+.testbutton {
+  font-weight: bold;
+  color: white !important;
+  font-size: 25px;
+  height: 50px;
+  width: 180px;
+  margin-left: 665px;
+  border: none;
+
+    font-family: 'Fira Sans Condensed', sans-serif;
+  padding: 10px 25px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #3E432E;
+  background: linear-gradient(top,  #3E432E,  #171414);
+  background: -ms-linear-gradient(top,  #3E432E,  #171414);
+  background: -webkit-gradient(linear, left top, left bottom, from(#3E432E), to(#171414));
+  background: -moz-linear-gradient(top,  #3E432E,  #171414);
+}
+.testbutton:hover {
+  color: #000000 !important;
+  background: #FFFFFF;
+}
+
+/*********************Id Tags***************************/
+#footer-id
+{
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  margin: 0;
+  margin-left: 420px;
+  padding: 40px;
+  ;
+}
+
+#main-heading
+{
+font-family: 'Indie Flower', cursive;
+font-size: 90px;
+  position: absolute;
+    left:37%;
+    top: 280px;
+}
+
+#main-para
+{
+
+margin:0;
+color:white;
+  font-family: 'Overpass', sans-serif;
+  font-size: 30px;
+  position:absolute;
+      left:34%;
+      top: 400px;
+}
